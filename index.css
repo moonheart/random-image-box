@@ -1,0 +1,17 @@
+table{
+    width: 100%;
+    height: 100%;
+    border-spacing: 0;
+}
+td {
+    border: 2px solid transparent;
+    text-align: center;
+    overflow: hidden;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    box-sizing: border-box;
+}
+
+td:hover{
+    box-shadow:0 0 500px black;
+    border: 2px solid rgb(255, 255, 255);
+}
